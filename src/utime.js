@@ -4,8 +4,10 @@ require('../libs/sugar-date')
 module.exports = (pluginContext) => {
     return {
         respondsTo: (query) => {
+            pluginContext.console.log('info', 'moda say hello', {
+                name : 'moda'
+            })
             var arr = query.split(' ')
-            console.log('moda say hello')
             return arr[0]=='uitme' || arr[0]=='utmie' || arr[0]=='utiem' || arr[0]=='utime'
         },
         search: (query = '', env = {}) => {
