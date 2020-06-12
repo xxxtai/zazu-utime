@@ -1,7 +1,7 @@
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/puyt/zazu-utime)
 
 
-forked from puyt/zazu-utime, the result of puyt/zazu-utime always displayed first. Therefore, I added the prifix 'utime' on the basis of previous.
+this repo is forked from puyt/zazu-utime, the result of puyt/zazu-utime always displayed first. Therefore, I added the prifix 'utime' on the basis of previous.
 
 ## Zazu-utime
 
