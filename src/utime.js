@@ -7,11 +7,10 @@ module.exports = (pluginContext) => {
             pluginContext.console.log('info', 'moda say hello', {
                 name : 'moda'
             })
-            var arr = query.split(' ')
-            return arr[0]=='uitme' || arr[0]=='utmie' || arr[0]=='utiem' || arr[0]=='utime'
+            return query.startsWith('utime')
         },
         search: (query = '', env = {}) => {
-            var arr = query.split(' ')
+            var arr = query.split('utime')
             query = arr[1]
             // check if timestamp given
             let isTimestamp = !isNaN(parseFloat(query)) && isFinite(query);
