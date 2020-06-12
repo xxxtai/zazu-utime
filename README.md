@@ -1,5 +1,8 @@
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/puyt/zazu-utime)
 
+
+forked from puyt/zazu-utime, the result of puyt/zazu-utime always displayed first. Therefore, I added the prifix 'utime' on the basis of previous.
+
 ## Zazu-utime
 
 A simple timestamp plugin for [Zazu](http://zazuapp.org/), inspired by this [Chrome extension](https://chrome.google.com/webstore/detail/kpcibgnngaaabebmcabmkocdokepdaki).
@@ -10,22 +13,23 @@ A simple timestamp plugin for [Zazu](http://zazuapp.org/), inspired by this [Chr
 Open Zazu and type a timestamp or human-readable date, the plugin will try and translate most of it.
 
 Examples:
-- `now`
-- `today`
-- `1487718000`
-- `the end of next week`
+- `utimenow`
+- `utime now`
+- `utime today`
+- `utime1487718000`
+- `utime2020-06-13 00:00:00`
 
 For more examples see https://sugarjs.com/dates/#/Parsing
 
 
 ## Installing
 
-Add `puyt/zazu-utime` inside of `plugins` block of your  `~/.zazurc.json` file.
+Add `xxxtai/zazu-utime` inside of `plugins` block of your  `~/.zazurc.json` file.
 
 ~~~ json
 {
   "plugins": [
-      "puyt/zazu-utime"
+      "xxxtai/zazu-utime"
   ]
 }
 ~~~
@@ -38,10 +42,10 @@ Add `puyt/zazu-utime` inside of `plugins` block of your  `~/.zazurc.json` file.
 {
   "plugins": [
     {
-        "name": "puyt/zazu-utime",
+        "name": "xxxtai/zazu-utime",
         "variables": {
             "timestampUnit": "milliseconds",
-            "outputFormat": "{yyyy}/{MM}/{dd} {HH}:{mm}:{s}"
+            "outputFormat": "{yyyy}-{MM}-{dd} {HH}:{mm}:{s}"
         }
     }
   ]
@@ -50,10 +54,10 @@ Add `puyt/zazu-utime` inside of `plugins` block of your  `~/.zazurc.json` file.
 
 
 ## Screenshots
-![example1](./assets/example1.png)
-![example2](./assets/example2.png)
-![example3](./assets/example3.png)
-![example4](./assets/example4.png)
+![example1](./assets/20200612222759.jpg)
+![example2](./assets/20200612222847.jpg)
+![example3](./assets/20200612222948.jpg)
+![example4](./assets/20200612223005.jpg)
 
 
 ## Acknowledgments
